@@ -6,7 +6,14 @@ class ArgumentParser {
  public:
   // Constructor of ArgumentParser will read through the arguments and sets the
   // "status"
-  ArgumentParser(const char *argv[]) {}
+  ArgumentParser(const char *argv[], int argc) {
+    raw_argc = argc;
+  }
+
+  int GetRawArgc() { return raw_argc; }
+
+ private:
+  int raw_argc;
 };
 
 #endif // WIMINAL_PARSER_PARSER_HPP_

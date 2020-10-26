@@ -5,9 +5,9 @@
 #include "src/parser/argument_parser.hpp"
 #include "src/gui/wiminal.hpp"
 
-int main(int arc, const char *argv[])
+int main(int argc, const char *argv[])
 {
-  ArgumentParser arg_parse(argv);
+  ArgumentParser arg_parse(argv, argc);
   Wiminal wiminal(arg_parse);
   wiminal.run();
 
