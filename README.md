@@ -1,7 +1,7 @@
 # Wiminal
 
 ## What is winimal?
-Widgets in your terminal!
+Widgets within your terminal!
 
 Most times you want small widgets to keep an eye on things. The problem is every
 platform is different, however, they mostly share a type of terminal.
