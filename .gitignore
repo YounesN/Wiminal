@@ -2,3 +2,6 @@
 build
 bin
 googletest-download
+
+# vscode related
+settings.json
