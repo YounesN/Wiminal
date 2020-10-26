@@ -1,0 +1,4 @@
+# directories to avoid
+build
+bin
+googletest-download
